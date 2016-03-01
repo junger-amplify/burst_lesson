@@ -1,0 +1,1625 @@
+/**
+ * Styles for Burst PDF
+ */
+
+#home {
+    page-break-after: always;
+    width: 100%;
+}
+
+#introduction {
+    width:            100%;
+}
+
+.pageStructure {
+    width: 100%;
+}
+
+.day {
+    page-break-before: always;
+}
+
+.page-break-before {
+    page-break-before: always;
+}
+
+.page-break-after {
+    page-break-after:  always;
+}
+
+a {    
+    text-decoration: none;
+    color:#000;    
+}
+
+td p {
+    text-align:left;
+}
+
+/*  Introduction styles ************************************** */
+
+.brief_header{
+  margin-right:80px;
+  margin-left:-12px;
+  margin-top:-18px;
+}
+
+.brief_header .header{
+    width:689px;
+    background-image: url(../images/pdf/Brief_head_bg2.jpg);
+    background-repeat: no-repeat;
+    height:130px;
+    font-family: "FrutigerStd";
+    padding-top:20px;
+    padding-left:0px;
+    color:#999;
+    font-size:13px;
+    text-align:center;
+    line-height:16px;
+}
+
+.brief_header .credit{
+
+     width:175px;
+     font-size:10px;
+     text-align:center;
+     padding-top:36px; 
+     padding-right:-10px;
+     
+     margin-left: 15px;
+}
+
+.brief_header .credit p{
+    text-align:center;
+    }
+
+.brief_header .header .head{
+        width:640px; 
+}
+
+.brief_header .header .logo{
+     vertical-align:top; 
+     padding-top:-9px;
+}
+.brief_header .header .logo img {
+   margin-left:15px;
+   width: 140px;
+}
+
+.brief_header .header .burst{
+     font-family: "FrutigerLight";
+      color:#000000;
+     font-size:60px;
+     text-align:center;
+     font-weight:bold;
+     padding-top:30px;
+     padding-left:38px; 
+    
+    
+}
+.brief_header .header .volume{
+     color:#333;
+     padding-top:14px;
+      padding-left:102px;
+    
+}
+.brief_header .header .title{
+     padding-top:15px;
+     font-size:15px;
+     font-family: "AGaramondPro";
+     font-weight:bold;
+     color:#FFFFFF;
+}
+
+/* Introduction body styles */
+
+.brief{
+  margin-right:25px;
+  margin-left:-15px;
+
+}
+
+.brief .zen{
+
+    font-family: "AGaramondPro";
+    font-weight:bold;
+    color:#000;
+    font-size:68px;
+    line-height:58px;
+    padding-top:16px;
+    padding-left:16px;
+}
+.brief .zen2{
+
+    font-family: "AGaramondPro";
+    font-weight:bold;
+    color:#000;
+    font-size:62px;
+    line-height:58px;
+    padding-top:16px;
+    padding-left:16px;
+}
+
+.brief .zen3{
+
+    font-family: "AGaramondPro";
+    font-weight:bold;
+    color:#000;
+    font-size:51px;
+    line-height:58px;
+    padding-top:16px;
+    padding-left:16px;
+}
+
+.brief  .box{ 
+    background-image: url(../images/pdf/Brief_legend_4rows.jpg);
+    background-repeat: no-repeat;
+        width:310px;
+    padding:25px 20px 6px 20px;
+    font-family: "AGaramondPro";
+    font-size:12px;
+    line-height:14px;
+    font-style: italic;
+}
+
+.box td.key {    font-style:normal;}
+
+.brief .brief_content .left .main{
+
+    margin-right: 16px;
+}
+.brief .subtitle{
+font-family: "AGaramondPro";
+    color:#999;
+    font-size:20px;
+    margin-left:16px;
+    margin-bottom:10px;
+    font-style: italic;
+    border-bottom:3px solid #999;
+}
+
+.brief .cont{
+    font-family: "AGaramondPro";
+    color:#000;
+    font-size:11px;
+    line-height:16px;
+    padding-left:16px;
+    padding-top:16px;
+    vertical-align: top;
+}
+
+.brief .cont p {
+    text-align:left;
+    }
+
+.brief p.new {
+    padding-top:18px;
+    }
+
+.brief p.newTight { padding-top:12px; } 
+.cont .quote { padding:0px 10px 0px 10px; font-size:15px; font-weight:normal; font-style:italic; line-height:21px; color:#333; }
+p.quote{ padding:10px 10px 0px 10px; font-size:15px; font-weight:normal; font-style:italic; line-height:21px; color:#333; text-align:center; }
+
+.main .cont img{
+    margin:0px 14px 12px 0px;
+    
+}
+
+.brief .box td{
+    padding:6px 0px 6px 0px;
+}
+
+.brief .aux{
+     font-family: "FrutigerSTD";
+     color:#999;
+     font-size:9px;
+     padding-top:10px;
+     padding-left:16px;
+}
+
+.brief td p{
+    text-align:left;
+    }
+
+.brief .aux td{
+  width:130px;
+  padding-right:15px;
+}
+.focus{
+    color:#999;
+    font-weight:bold;
+    text-decoration:none;
+}
+/* Introduction sidebar */
+
+    table.brief_sidebar {
+        
+        margin:0 0 10px;
+        padding:0;
+    }
+
+        .brief_sidebar td {
+            padding:0;
+            margin:0;
+                        font-family: "AGaramondPro";
+                    font-size:10px;
+                    line-height:14px;
+        }
+    
+        .brief_sidebar td.top {
+            vertical-align:bottom;
+            margin-top:5px;
+        }
+        
+        .brief_sidebar td.contents {
+            text-align:center;
+        }
+        
+        .brief_sidebar td.bot {
+            vertical-align:top;
+            margin-bottom:-17px;
+        }
+        
+                .brief_sidebar .qa {
+            font-family: "AGaramondPro";
+                    font-size:20px;
+                    font-weight:bold;
+                        font-style:italic;
+            vertical-align:top;
+                }
+                .brief_sidebar .qaquestion {
+            font-family: "FrutigerStd";
+                    font-size:9px;
+                    font-weight:bold;
+                    line-height:14px;
+                        margin:4px 15px 10px -3px;
+                        font-style:italic;
+                }   
+        
+        .brief_sidebar .qaquestionNoItal { 
+                font-family: "FrutigerStd";
+                    font-size:9px;
+                    font-weight:bold;
+                    line-height:14px;
+                    margin:4px 15px 10px -3px;
+                        }
+
+                .brief_sidebar .jubilee {
+            font-family: "FrutigerStd";
+                    font-weight:bold;
+                    font-size:10px;
+                    line-height:14px;
+                    font-style:italic;
+                    padding:2px 15px 16px 10px;
+                }       
+        
+        div.tight td.right,td.jubilee,td.qaquestion { line-height:13px; }
+
+            .brief_sidebar td table {
+                width:249px;
+                margin-left:9px;
+                background:#f6f6f7;
+                border-left:1px solid #999;
+                border-right:1px solid #999;
+            }
+            
+                .brief_sidebar td table td.left {
+                    padding:-5px 10px 0px 10px;
+                    vertical-align:top;
+                    text-align:left;
+                }
+                .brief_sidebar td table td.right {
+                    padding-right:15px;
+                    padding-left:-3px;
+                    vertical-align:top;
+                    text-align:left;
+                }
+                .brief_sidebar .note {
+            font-family: "FrutigerLight";
+                    font-size:10px;
+                    line-height:12px;
+                    padding:12px 15px 0px 10px;
+                    vertical-align:top;
+                    text-align:left;
+                }
+     
+     sup { font-size:.5em }
+                
+                
+                
+/*  Overview styles ************************************** */
+a {
+  text-decoration:none;
+  color:#000;
+}
+
+.overviewMargin {
+    margin:0px -15px 0px -15px;
+}
+
+#overviewHeader {
+    border-top:1px solid #c2c2c2;
+    font-family: "FrutigerLight";
+}
+
+#overviewHeader .head {
+    font-size: 22px;
+    line-height: 22px;
+    color: #ACACAC;
+    margin-bottom: 4px;
+    padding: 8px 10px 0px 10px;
+    width: 100%;
+}
+
+#overviewHeader .head .author {
+    font-size: 15px;
+    color: #ACACAC;
+    font-weight: bold;
+    padding-top: 14px;
+}
+
+#overviewHeader .subhead {
+    font-size: 15px;
+    color: #000000;
+}
+
+#overviewHeader .subhead .date {    
+    font-size: 12px;        
+}
+
+#overviewHeader .grey { 
+   border-top:1px solid #c2c2c2;
+   border-bottom:1px solid #c2c2c2; 
+   background-color: #F5F5F5;
+   padding: 2px 2px 8px 2px;  
+            
+}
+
+#overviewHeader .grey .subhead {    
+    font-weight: bold; 
+    width:210px;     
+}
+#overviewHeader .grey .subhead2 {    
+    font-weight: bold; 
+    width:400px;     
+}
+
+#overviewHeader .grey td { 
+   padding: 8px 6px 0px 10px;  
+            
+}
+
+#overviewHeader .grey .info { 
+  vertical-align: top; 
+  color:#8A8A8A;
+  font-size: 12px;
+  line-height: 18px; 
+  display: block;       
+}
+
+#overview {    
+    font-family: "FrutigerLight"; 
+    font-size: 11px;
+}
+#overview .bold{              
+    font-weight: bold;
+    width:      20px;
+}
+#overview .list{              
+    margin-top:16px;
+    text-align: left;       
+}
+
+#overview .left .unit { 
+ width: 10%;
+}
+#overview .left .description{
+ width:90%;
+}
+
+#overview .right .unit {
+ width: 20%;
+}
+
+#overview .right .description{
+ width:80%;
+}
+
+
+#overview .rowhead span {     
+    color: #ACACAC; 
+    text-align:left;   
+    vertical-align: middle;
+    font-weight: bold; 
+        font-size: 15px;   
+}
+
+
+#overview .left {     
+    width:430px; 
+       margin-right:90px;    
+}
+
+#overview .right {    
+     
+    width:450px;     
+}
+
+/* end overview*/
+
+#main ol {
+    marker-font-family: arial, helvetica, sans-serif;
+    marker-offset: 1px;
+    padding-left: -32px;
+    line-height: 11px;
+    font-size: 13px;
+    }
+
+ul {        
+    marker-offset: 11px;
+    }    
+#nutshell li {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    list-style:square;
+    list-style-position:outside;            
+    }
+.pageHeader {
+    border: 2px solid #999;
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 945px;
+}
+.pageHeader h1 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    color:#333;
+    font-weight: bold;
+    }    
+    
+
+#nutshell h2 {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    margin: 3px 0 2px 0;
+    }
+#nutshell {
+    border:1px dotted #333;
+    background-color:#EDEDED;
+    padding: 5px 3px 5px 3px;
+    margin: 5px -4px 5px -4px;
+    height: 110px;
+    width: 100%;
+}
+
+.timedNutshell {
+    padding-top:        20px
+}
+.spacer {
+    width:8px;
+    }    
+.adjust {
+    font-size:8pt;
+    font-weight:bold;
+    text-decoration:underline
+}
+#main {    
+    padding: -6px 0 -5px 0;    
+}
+#main p {    
+    font-size: 13px;    
+    margin-left: 15px; 
+}
+.longV {
+    dpi:300;
+    margin-bottom: 7px;
+    display:inline
+}
+
+
+/**
+    - For Non-Overview pages.
+*/
+    body {
+        color: #000;
+        background-color: #fff; 
+        margin:-12px 3px 0px 3px;
+        font-family: "FrutigerStd"; 
+        /**margin: -20px -24px -20px -24px;   /** This sets the page margins. */
+    }
+    h1 {
+    font-size: 16px;
+    line-height:16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:#333;
+    font-weight:bold;
+    margin:0;
+    font-family: "FrutigerStd";
+    }
+    h1.shift {
+    padding-top:-20px
+    }
+     h2 {
+        font-size: 14px;
+        line-height:18;
+        font-weight:bold;
+        padding-top: 10px;
+    
+    }
+    p {
+        
+        margin-top: -3px;
+        margin-bottom: 2px; 
+    }
+    
+    #objective {
+        align:right;
+    }
+    /*h2.extra{             
+        padding-top: 5px;
+        } */
+
+    
+/* day ********************************************* */
+
+    .top_spacer {
+        height:18;
+        width:100%;
+        
+    }
+    .dateblock {
+        margin-bottom:-72px;
+        padding-top:4px;
+        padding-left:615px;
+        text-align:right;
+        border-top:1px solid #888;  
+    }
+/* day games ********************************************* */
+    .dateblock2 {
+        margin-bottom:-60px;
+        padding-top:5px;
+        padding-left:615px;
+        padding-bottom:8px;
+        text-align:right;
+        border-top:1px solid #888;
+    }
+    
+        
+/* skill ********************************************* */
+    .skill {
+        margin-bottom:-25px;
+        text-align:left;
+    }
+    
+
+/* header ********************************************* */
+    .lesson_header {
+        position:relative;
+        clear:both;
+        width:100%;
+        padding:10px 80px 20px 0;
+        /*padding: 10px 0;*/
+        /*margin 0 0 20px*/
+        margin:-76px 0 0;
+        font-size:18px;
+        border-top:0;
+        border-bottom:1px solid #888;
+        font-family: "FrutigerLight";
+    }
+    .lesson_header .lesson_title {
+        display:block;
+        width:100%;
+        font-size:24px;
+        line-height:32px;
+        font-weight:bold;
+        color:#333;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 5;
+        padding-left: 0;
+        text-align:left;
+    }
+    .lesson_goal {
+        font-family: "FrutigerStd";
+        font-size:12px;
+        
+    }
+/* lesson ********************************************* */
+    table.lesson {margin:1em 0;}
+    .margin {width:40px;}
+    .notice h3, .box h3 {display:block;margin:0;padding:.3em 0;font-size:14px;color:#fff;}
+    .box {margin:0px; /*margin:0 0 1em; width:100%*/} 
+    .box2 {margin:0 0 10px;}
+    .box td, .box2 td {padding:0;
+        vertical-align:top;
+        text-align: left;}
+    /*p.box {border:1px solid;*/
+  
+    
+/* aux column ********************************************* */
+    .lesson_extras {
+    /*width:200px*/
+        font-size:10px; 
+        vertical-align:top;
+        font-family: "FrutigerStd";
+    }
+    .lesson_extras .box2 {
+        width:204px;
+        width:171px;
+    }
+    
+    /* The "Materials" box */
+    .cards {
+        width:100%;
+        padding-top: 5px;
+        padding-right: 2px;
+       
+    }
+    /* Materials box bottom padding */
+    .cards td {
+       padding-bottom: 4px;
+    }
+    
+    .icon {
+        padding:2;
+     
+    }
+    .lesson_extras ul{
+        padding-top: 0px;
+        padding-right: 2px;
+    }
+    .lesson_extras li{
+        list-style-type: circle;
+    }
+    .lesson_foot {
+        vertical-align:bottom;
+        font-family: "FrutigerStd";
+    }
+    .lesson_foot .box {
+            font-size:10px; 
+            line-height:16px;
+            width:204px;
+            width:171px;
+            padding:0px;
+        }
+    .lesson_foot .box .content p{
+       padding:10px 0 0 0px;
+    
+    }   
+    td.content_td {
+       border-right:1px solid #999;
+       border-left:1px solid #999;
+       border-bottom:1px solid #999;
+       border-top:0;
+       padding:3px 3px 8px 8px;
+    }
+    .box .content td.content_td2 { /* increased specificity */
+        border-right:1px solid #999;
+        border-left:1px solid #999;
+        border-top:0;
+        border-bottom:0;
+        padding:3px 3px 8px 8px;
+    }
+    
+
+    
+/* content ********************************************* */
+    /* The whole lesson content (all the stuff in the right column) */
+    .lesson_content {
+       vertical-align:top;
+       width:400px;
+       width:495px;
+       font-family: "AGaramondPro";
+    }
+    
+    /* the "Prepare" box */
+    .lesson_content .box {
+           font-size:12px; 
+            width:483px;
+            padding:0px 0 5px 0px;
+        }
+    .lesson_content .box .content p{
+       padding:10px 0 8px 0px;
+    }   
+    
+    div.step {
+        position:relative;
+        margin:1em 0 0 1em;
+        clear:left;
+    }
+    div.step table {
+    border:0;
+    cellpadding:0;
+    cellmargin:0;
+    }
+    /*div.step img {
+         margin-right:6px;
+    }*/
+    div.step p {
+         margin-right:0px;
+        /* changing this aligned the right-hand margin of the steps to the Prepare box
+        margin-right:40px; */
+    }
+    
+    div.step .stepnum {
+       position:absolute;
+       top:0;
+       left:0;
+       margin-left:-1em;
+       color:#888;
+       font-family: "FrutigerStd";
+       font-weight:bold;
+    }
+    div.step .stepnum2 {
+       position:absolute;
+       top:9;
+       left:0;
+       margin-left:-1em;
+       color:#888;
+       font-family: "FrutigerStd";
+       font-weight:bold;
+    }
+    /*for when steps are above 9*/
+    div.step .stepnum3 {
+       position:absolute;
+       top:0;
+       left:0;
+       margin-left:-1.5em;
+       color:#888;
+       font-family: "FrutigerStd";
+       font-weight:bold;
+    }
+
+    /*   .mrsay  {min-height:65; display:block;margin:0;padding:11px 0 0 57px;}*/
+    
+/*begin QA section JJ 7/15/2009*/
+.qafooter {
+    font-size:12px;
+    font-family: FrutigerLight;
+    border-bottom: thin solid lightgrey;
+    border-top: thin solid lightgrey;
+    padding: 3px 5px 0px 5px;
+}
+
+.qaheader {
+    position:relative;
+    padding:10px 10px;
+    border-top:1px solid #888;
+    border-bottom:1px solid #888;
+    font-family: FrutigerLight;
+    width:100%;
+    font-size:24px;
+    font-weight:bold;
+    color:#333;
+}
+
+.qatopdataleft {
+    border-bottom: thick solid black;
+    margin-right: 10px;
+}
+
+.qatopdataright {
+    border-bottom: thick solid black; 
+    margin-left: 10px
+}
+
+.qadataleft {
+    border-bottom: thin solid lightgrey;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.qadataright {
+    border-bottom: thin solid lightgrey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.qapara {
+    margin-top:0px;
+    margin-bottom:-5px;
+}
+    
+.qastory-title  {
+    background-color: lightgrey;
+    padding: 7px 0 3px 10px; 
+    margin: 0 0 12px 0;
+    font-size: 13px;
+}
+
+.qalesson-margin {
+  margin-bottom: 30px;
+}
+ 
+.qastory-title1 {
+  background-color: lightgrey;
+  padding: 7px 0 3px 10px;
+  margin: -16px 0 12px 0;
+  font-size: 13px;
+}
+ 
+.qastorycontent-right {
+  font-size: 12px;
+  border-bottom: thin solid lightgrey;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+ 
+.qastorycontent-left {
+  font-size: 12px;
+  border-bottom: thin solid lightgrey;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+    /*end QA section */
+    
+div.hm_header {
+    clear:both;
+    width:100%;
+    padding: 20px 0px 10px 10px;
+    margin:-30px 0 0;
+    font-size:24px;
+    border-top:1px solid #888;
+    border-bottom:1px solid #888;
+    font-family: FrutigerLight;
+}
+ 
+p.hm_instruction {
+    margin-left: 1em; 
+    margin-right: 1em; 
+    font-family: FrutigerLight; 
+    font-size: 12px;
+}
+ 
+td.hm_view {
+    font-family: FrutigerLight; 
+    font-size: 18px;
+}   
+    
+#mrSay table {
+    border:0;
+    cellpadding:0;
+    cellmargin:0;
+    padding-top:.5em;
+}
+#mrSayStep table {
+    border:0;
+    cellpadding:0;
+    cellmargin:0;
+    width:100%;
+    
+}     
+#mrSay p, #mrSayStep p {
+    padding-left:.5em;
+    padding-top:.5em;
+    }
+    
+.nutshellcomp 
+    {
+        font-size: 15px;
+        line-height:15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color:#333;
+        font-weight:bold;
+        margin:0;
+        font-family: "FrutigerStd";
+    }
+
+.nutshellminutes
+    {
+        font-size: 14px;
+        line-height:16px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color:#333;
+        margin:0;
+        font-family: "FrutigerStd";
+    }
+
+.page2header
+    {
+        position:relative;
+        clear:both;
+        width:100%;
+        padding:1px 1px 1px 0;
+        font-family:"FrutigerStd";
+        font-size:14px;
+        border-top:0;
+        border-bottom:1px solid #888;
+        font-weight:bold
+    }
+    
+ .pageNumber {
+        color: black;
+        font-family:   "FrutigerStd";
+        font-size: 8pt;
+        font-weight: bold; 
+        text-align: center;
+        vertical-align: middle;
+        
+ }
+ 
+ .pageNumber p {
+        margin-left: 5px;
+        margin-top:  2px;
+ }
+ 
+ div.step p.subhead {
+    font-size: 13px;
+    font-weight:bold;
+    padding-top:-0.1em
+ }
+
+ div.step p.continued /*for (Continued on next page)*/  {
+        font-family:"FrutigerStd";
+        font-size:10px;
+   }
+
+ .lesson_content .box .content p.wordlist /*for vocabulary word lists */
+ {
+ padding: 3px 0 0 0;
+ line-height:12px;
+ }
+/*wordlist2 is for second page wordlists*/
+ div.wordlist2 {
+    font-size: 13px;
+    margin: 25px 0 0 10px;
+}
+
+ p.wordlist2 /*for vocabulary word lists wordlist*/
+ {
+     padding-top: 12px;
+ }
+ 
+ div.blanks_clues {
+    margin: 25px 0 0 5px;
+    font-family:AGaramondPro;
+    font-size:11px;
+ }
+
+ .blanks_clues_sub {
+        margin-left:10px;
+    padding: 10px 0 8px 0;
+    
+ }
+ 
+ p.blanks_clues {
+    padding-top: 5px;
+}
+
+   .instruct {
+    
+       font-weight:bold;
+       display:block;
+   }
+   .instruction {
+       margin-left:14px;
+       padding-left:14px;
+       padding-top:14px;
+     }
+.instruction2 {
+       margin-left:14px;
+       padding-left:14px;
+       padding-top:14px;
+   }
+    .bubble {
+       /*background-image:url('../images/pdf/mrSay-bubble.gif');*/
+       background-repeat:no-repeat;
+       min-height:65;
+     
+
+   }
+   .instruct .term {font-weight:normal;}
+
+
+   .pm {
+       font-family:AGaramondPro;font-size:13px;line-height:14px;padding-bottom:10px;
+   }
+   
+   .step p { font-size:12px;line-height: 15px;}
+   
+/* Teacher Materials ************************** */
+ .lesson_header_l {
+  position:relative;
+  clear:both;
+  width:100%;
+  padding:10px 80px 10px 0;
+  margin:-76px 0 0;
+  font-size:18px;
+  border-top:1px solid #888;
+  border-bottom:1px solid #888;
+  font-family: "FrutigerLight";
+ }
+ .lesson_header_l .lesson_title_l1 {
+  display:block;
+  width:100%;
+  font-size:24px;
+  line-height:32px;
+  font-weight:bold;
+  color:#333;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 5;
+  padding-left: 0;
+  text-align:left;
+  margin-left:1em;
+ }
+ 
+ .lesson_header_l .lesson_title_l2 {
+  display:block;
+  width:100%;
+  font-size:24px;
+  line-height:32px;
+  font-weight:bold;
+  padding: 0 0 0 0;
+  text-align:left;
+  color:gray;
+  margin-left:1em;
+ }
+ 
+ td.rightdotted {
+  border-right: thick dotted lightgrey; 
+  padding-left: 3px;
+ }
+ 
+ div.left3 {
+  position: relative; 
+  left: 3px;
+ }
+ 
+ div.greybox {
+  width:25px;
+  height:25px;
+  background-color:#c2c2c2;
+ }
+ 
+ p.wnumber {
+  margin: 0 0 0 0;
+  padding:0 0 -4px 0; 
+  background-color: #c2c2c2; 
+  color: white;
+  font-family: FrutigerStd;
+  font-weight:bold;
+  font-size:14px;
+ }
+ 
+ td.text_l
+ {
+  font-size: 13px;
+ }
+   
+/* materials ******************************** */
+
+   table.cards li {
+        line-height: 13px;
+        padding-bottom: 6px;
+   }
+   .cards td {width:77%; padding-left:2px;}   
+   .cards td.icon {width:23%; padding-left:0} 
+   
+/* Footer styles **************************************** */
+
+   .footer{         
+        clear:both;
+        width:100%;         
+        font-size:9px;
+        color:#999;
+        font-family: "FrutigerLight";
+    }
+    
+#footer .foot_table {
+    margin-left:-20px;
+    margin-right:-16px;
+    }
+    
+    .footer .right {
+        text-align: right;      
+    }   
+    
+    .footer td {
+        vertical-align: middle;
+    }
+    
+    .footer p{
+        padding-top:2px;
+    }
+    
+    #footer .createdby, #footer2 .createdby{
+        font-style: italic;
+    }
+   
+    #footer table {
+        width:100%;
+    }
+
+
+/* Why This Burst styles  **************************/   
+
+    .studentSkillsTable {           
+        font-size:       8px;
+        color:           #333333;
+        border-collapse: collapse;  
+        width:           580px;
+        padding-left:    5px;
+        padding-bottom:  5px;
+        margin-bottom:   15px;
+    }
+    
+    .headerCell {
+        border-left:   0 !important;
+        border-right:  0 !important;
+        padding-left:  2px; 
+        padding-right: 2px;
+    }
+    
+    .studentSkillsTable td {
+        vertical-align: middle; 
+        text-align:     right;
+        width:          50px;
+    }
+    .skillNameTooltip {
+        display:        none !important;
+    }
+    
+    .studentSkillsTable .table_collapse {
+        display:none;
+    }
+    
+    .studentSkillsTable .studentName {
+        font-size:      10px;
+        text-align:     left;
+        border-left:    0;
+        width:          125px !important;   
+    }
+    
+    .studentSkillsTable .studentName p {
+        align:          left;
+        padding-left:   10px !important;
+        padding-top:    4px  !important;
+    }
+    
+    .studentSkillsTable .studentNameLabel p {
+        align:          center;
+    }
+    .studentSkillsTable .studentIcon {
+        border-right:   0;
+        padding-left:   0px;
+        padding-right:  5px;
+        width:          22px;
+    }
+    
+    .studentSkillsTable td {
+        border-left:    1px solid #d4d4d4;  
+        padding-top:    2px;
+        padding-bottom: 2px;
+        padding-left:   0px;
+        padding-right:  0px;
+    }
+    
+    .studentSkillsTable td p{
+        text-align:     center;
+        align:          center;
+        vertical-align: middle;
+     }
+    
+    .studentSkillsTable tbody {
+        background-color:   #ffffff;
+        border:             1px solid #d4d4d4;  
+    }
+    .focusSkillColumn {
+        background-color:   #e8e8e8;
+    }
+
+    .studentSkillsTable .normalRow {
+        background-color:   #ffffff;
+        border-right:       1px solid #d4d4d4 !important;
+    }
+    
+    .skillLevel {
+        padding-left:       15px !important;
+    }
+    .stripedRow {
+        background-color:   #f1f1f1;
+        border-right:       1px solid #d4d4d4 !important;
+    }
+    
+    .stripedRow .focusSkillColumn {
+        background-color:   #dfdfdf;
+    }
+    
+    .studentSkillsTableCreationTag p{
+        color:              #717171;
+        font-weight:        bold;
+        font-size:          8px !important;
+        align:              left;
+    }
+
+    #whyInstructionTable {  
+        width:              100%;
+        margin-top:         20px;
+        position:           relative;
+        height:             164px;
+    }
+
+    div.wtbMessageAfterTable img.outlierIcon {
+        margin-top:         -2px;
+    
+    }
+    #whyInstructionKey
+    {
+        display:            none;
+    }
+    
+    div.wtbMessageAfterTable {
+        margin-left:        12px;
+        margin-top:         0px;
+        margin-bottom:      15px;
+        width:              690px;
+        font-size:          10px;
+        text-align:         left;
+    }
+    
+    div.wtbBottomMessage {
+        position:           absolute;
+        margin-left:        12px;
+        margin-top:         0px;
+        margin-bottom:      15px;
+        width:              690px;
+        font-size:          11px;
+        text-align:         left;
+    }
+    
+    #userModifiedKey {
+        top: 650px;
+    }
+    
+    #emailUsText {
+        top: 700px;
+    }
+    
+    .whyInstructionExplanation span{ 
+        vertical-align: top;
+        color:#8A8A8A;
+        font-size: 12px;
+        line-height: 18px; 
+        display: block;     
+    }
+    .studentSkillsTableLabel {
+        margin-top:         15px;
+        margin-bottom:      5px;
+        margin-left:        5px;
+        font-size:          11px;
+        font-weight:        bold;
+    }
+    
+    
+    .clearElement {
+        height: 0;
+        font-size: 1px;
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        clear: both;    
+    }
+    .colorIcon {
+        display:  none;
+    }
+    .keyImage {
+        position:         absolute;
+        left:             590px;
+        top:              8px;
+    }    
+    .whyInstructionExplanation {
+       border-top:1px solid #c2c2c2;
+       border-bottom:1px solid #c2c2c2; 
+       background-color: #F5F5F5;   
+       padding:     20px 20px 20px 20px;            
+    }
+
+/* Materials calendar */
+
+#materialsCalendarPage {
+    margin:0px -15px 0px -15px;
+}
+
+#matCalHeader {
+    border-top:1px solid #c2c2c2;
+    font-family: "FrutigerLight";
+    line-height: 22px;
+    margin-bottom: 4px;
+    padding: 8px 10px 0px 10px;
+    width: 100%;
+}
+
+#matCalHeader h1 {
+    font-size: 22px;
+    color: #acacac;
+    padding: 0px;
+    font-family: "FrutigerLight";
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+#matCalHeader .headerRight {
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    width: 30%;
+    text-align: right;
+}
+
+#matCalHeader .headerRight div,
+#matCalHeader .headerRight p {
+    text-align: right;
+}
+
+#matCalHeader .headerRight .author {
+    font-size: 15px;
+    color: #ACACAC;
+    font-weight: bold;
+    padding-top: 14px;
+}
+
+#matCalHeader .headerRight .date {
+    vertical-align: top;
+    font-size: 12px;
+}
+
+#matCalHeader .subhead {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #000000;
+}
+
+#materialsCalendar {
+    padding: 0px;
+    width: 900px;
+    height: 610px;
+}
+
+div.matCalDay {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 10px;
+    color: #4c4c4c;
+    width: 181px;
+    height: 306px;
+}
+
+div.matCalEvenDay {
+    background-color: #ffffff;
+}
+
+div.matCalOddDay {
+    background-color: #f9f9f9;
+}
+
+#matCalDay1 {
+    top: 0px;
+    left: 0px;
+}
+
+#matCalDay2 {
+    top: 0px;
+    left: 180px;
+}
+
+#matCalDay3 {
+    top: 0px;
+    left: 360px;
+}
+
+#matCalDay4 {
+    top: 0px;
+    left: 540px;
+}
+
+#matCalDay5 {
+    top: 0px;
+    left: 720px;
+}
+
+#matCalDay6 {
+    top: 305px;
+    left: 0px;
+}
+
+#matCalDay7 {
+    top: 305px;
+    left: 180px;
+}
+
+#matCalDay8 {
+    top: 305px;
+    left: 360px;
+}
+
+#matCalDay9 {
+    top: 305px;
+    left: 540px;
+}
+
+#matCalDay10 {
+    top: 305px;
+    left: 720px;
+}
+
+img.matCalDayNumberBox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 37px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+div.matCalDay h2 {
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    width: 28px;
+    height: 37px;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+}
+
+span.matCalDayTitleText {
+    vertical-align: middle;
+}
+
+span.matCalDayTitleTextDay {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+span.matCalDayTitleNumber {
+    font-size: 22px;
+}
+
+div.matCalActivityItem {
+    width: 100%;
+    margin-top: 0px;
+}
+
+div.matCalActivityItemNotLast {
+    border-bottom: 1px dotted #909090;
+}
+
+div.matCalDay p {
+    margin-top: 5px;
+    text-align: left;
+}
+
+#pmDayAdmonition {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+#matCalTopLeftCorner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    margin-top: -11.5px;
+    margin-left: -12px;
+}
+
+#matCalTopRightCorner {
+    position: absolute;
+    top: 0px;
+    left: 882px;
+    width: 18px;
+    height: 18px;
+}
+
+#matCalBottomLeftCorner {
+    position: absolute;
+    top: 591.5px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+}
+
+#matCalBottomRightCorner {
+    position: absolute;
+    top: 591.5px;
+    left: 882px;
+    width: 18px;
+    height: 18px;
+}
+
+/* PM Page */
+
+p.pmPageText {
+    font-family: FrutigerStd;
+    font-size:13px;
+    line-height:14px;
+    padding-bottom:10px;
+}
+
+#pmHeader {
+    padding: 10px 80px 20px 0px;
+    width: 100%;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    margin-bottom: 18px;
+}
+
+#pmMeasureIcon1 {
+    position: absolute;
+    left: 590px;
+}
+
+#pmMeasureIcon2 {
+    position: absolute;
+    left: 520px;
+}
+
+#pmHeader .lesson_title {
+    font-size: 24px;
+    font-family: FrutigerLight;
+    font-weight: bold;
+    color: #333333;
+    padding: 10px 0px 5px 0px;
+}
+
+.earlyLitIcon {
+    float: left;
+    margin-top: -3px;
+    margin-right: 17px;
+}
+
+#pmStepByStep {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.pmStep {
+    float: left;
+    margin-right: 30px;
+}
+
+.lastPmStep {
+    margin-right: 0px;
+}
+
+#assessNote {
+   font-family: FrutigerLight;
+   font-size: 12px;
+   font-weight: normal;
+   position: absolute;
+   left: 510px;
+   top: 94px;
+}
+
+#postPmActivities {
+    margin-top: 40px;
+    border-top: 1px solid #888;
+    padding-top: 20px;
+}
+
+#postPmActivities ul {
+    margin-top: 15px;
+}
+
+// Josh's overrides
+
+body {
+	background-color: red;	
+}
+
+tr.titlebar {
+	display: none;	
+}
